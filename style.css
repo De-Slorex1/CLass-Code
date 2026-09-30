@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Original+Surfer&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+/* * {
+    color: purple;
+}
+
+
+.container {
+    color: coral;
+}
+
+#container {
+    color: goldenrod;
+}
+
+h2 {
+    color: crimson;
+}
+/* p {
+    color: cyan;
+} */
+/*.box-1, .box-2, .box-3, .box-4 {
+    color: grey;
+}
+.grand_parent_container .parent_container_one .child{
+    color: green;
+}
+
+.grand_parent_container .parent_container_two .child{
+    color: red;
+} */
+
+/* CSS COLORS */
+.box-1 h3{
+    color: rgb(161, 54, 184);
+    font-size: 2rem;
+    font-family: "Google Sans", sans-serif;
+}
+.box-1 p, .box-2 p, .box-3 p {
+    font-family: "Playfair Display", serif;
+    font-weight: lighter;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    line-height: 25px;
+}
+.box-2 h3 {
+    color: rgb(8, 0, 255);
+    font-size: 2rem;
+    font-family: "Original Surfer", sans-serif;
+}
+.box-3 h3 {
+    color: brown;
+    font-size: 2rem;
+    font-family: monospace;
+}
+.box-1, .box-2, .box-3 {
+    text-align: left;
+    box-shadow: 10px 10px 23px rgb(39, 38, 38);
+}
+
+.box-1 {
+    background-color: rgb(212, 212, 212);
+}
+.box-2 {
+    background-color: rgb(169, 132, 178);
+    color: white;
+}
+.box-3 {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.box-1 h3, .box-2 h3, .box-3 h3 {
+    text-transform: capitalize;
+    text-decoration: line-through;
+    letter-spacing: 10px;
+    text-shadow: 23px 2px 23px rgb(227, 25, 25);
+}
+.box-1 a, .box-2 a, .box-3 a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
