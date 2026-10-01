@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.block-container {
+    display: block;
+}
+.inline-container {
+    display: inline;
+}
+.parent_container {
+    padding: 0px 40px;
+    height: 60px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navlinks {
+    display: flex;
+    column-gap: 50px;
+}
+
+@media (max-width: 768px) {
+
+}

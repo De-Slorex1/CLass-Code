@@ -14,10 +14,9 @@
 } 
 background-image */
 .box-2 {
-    background-image: linear-gradient(to bottom, rgba(52, 51, 51, 0.8), rgba(0, 0, 0, 0.9)), url("./media/bg.jpg");
+    background: radial-gradient(rgba(255, 0, 0, 0.267), rgba(0, 0, 0, 0.342)), url("./media/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
     border-radius: 25px;
     /* border: 3px solid blue; */
     padding: 80px 0px;
@@ -62,3 +61,13 @@ background-image */
     background-color: transparent;
     color: white;
 }
+
+
+/* CSS DISPLAY */
+/* CSS DISPLAY -> BLOCK is the default html display 
+               -> INLINE
+               -> INLINE-BLOCK
+               -> FLEX
+               -> GRID
+*/
+
