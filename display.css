@@ -1,27 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-.block-container {
-    display: block;
-}
-.inline-container {
-    display: inline;
-}
 .parent_container {
-    padding: 0px 40px;
-    height: 60px;
-    background-color: burlywood;
+    height: 100px;
+    background-color: rgb(145, 143, 185);
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .navlinks {
     display: flex;
-    column-gap: 50px;
+    gap: 30px;
 }
 
-@media (max-width: 768px) {
+span {
+    display: inline-block;
+}
 
+p {
+    display: inline-block;
+}
+
+.grid-container {
+    display: grid;
+    /* grid-template-columns: 200px 400px 100px; */
+    /* grid-template-columns: repeat(6, 1fr); */
+    /* grid-template-columns: repeat(4, minmax(200px, 1fr)); */
+}
+.grid-item {
+    padding: 20px 30px;
+    text-align: center;
+}
+.item-1 {
+    background-color: green;
+}
+.item-2 {
+    background-color: grey;
+}
+.item-3 {
+    background-color: blue;
+}
+.item-4 {
+    background-color: orange;
+}
+.item-5 {
+    background-color: red;
+}
+.item-6 {
+    background-color: brown;
+}
+.item-7 {
+    background-color: gold;
+}
+.item-8 {
+    background-color: indigo;
+}
+.item-9 {
+    background-color: violet;
+}
+.item-10 {
+    background-color: cyan;
+}
+.item-11 {
+    background-color: yellowgreen;
+}
+.item-12 {
+    background-color: hotpink;
 }
