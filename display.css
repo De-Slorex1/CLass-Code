@@ -1,4 +1,4 @@
-.parent_container {
+/* .parent_container {
     height: 100px;
     background-color: rgb(145, 143, 185);
     display: flex;
@@ -18,47 +18,68 @@ span {
 
 p {
     display: inline-block;
-}
+} */
+/*Grid display can be used to achieve a grid layout, grid layout is a kind of layout that have data stored in rows and columns(tabular format)
+    Grid Display uses a grid container and grid items.
+*/
+
 
 .grid-container {
+    width: 100%;
     display: grid;
-    /* grid-template-columns: 200px 400px 100px; */
-    /* grid-template-columns: repeat(6, 1fr); */
-    /* grid-template-columns: repeat(4, minmax(200px, 1fr)); */
+    /* grid-template-columns: 100px 300px 100px;
+    grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 150px 150px 150px 150px 150px;
+    gap: 10px;
+
 }
 .grid-item {
-    padding: 20px 30px;
     text-align: center;
+    border-radius: 10px;
 }
 .item-1 {
     background-color: green;
+    grid-row:  span 1;
+}
+.item-1 img {
+    width: 100%;
 }
 .item-2 {
     background-color: grey;
+    grid-row: span 3;
 }
 .item-3 {
     background-color: blue;
+    grid-row: span 2;
 }
 .item-4 {
     background-color: orange;
+    grid-row:  span 1;
 }
 .item-5 {
     background-color: red;
+    grid-row: span 3;
 }
 .item-6 {
     background-color: brown;
+    grid-row: span 3;
 }
 .item-7 {
     background-color: gold;
+    grid-row:  span 4;
 }
 .item-8 {
     background-color: indigo;
+    grid-row: span 2;
 }
 .item-9 {
     background-color: violet;
+    grid-row:  span 3;
 }
 .item-10 {
     background-color: cyan;
+    grid-row: span 3;
 }
 .item-11 {
     background-color: yellowgreen;
@@ -66,3 +87,37 @@ p {
 .item-12 {
     background-color: hotpink;
 }
+
+@media (max-width: 768px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(14, 150px);
+        gap: 10px;
+    }
+    .item-10 {
+        background-color: cyan;
+        grid-row: span 4;
+    }
+}
+
+@media (max-width: 576px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(27, 150px);
+        gap: 10px;
+    }
+}
+
+/*Tablet */
+
+/*
+    Grid✅
+    Z-Index✅
+    Media Queries
+    Vercel ✅
+    Netlify ✅
+*/
